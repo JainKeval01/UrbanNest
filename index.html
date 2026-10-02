@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            UrbanNest
+        </div>
+
+        <nav class="nav-links">
+            <a href="#">Buy</a>
+            <a href="#">Rent</a>
+            <a href="#">Properties</a>
+            <a href="#">About</a>
+        </nav>
+
+        <div class="nav-actions">
+            <a href="#">Favourite</a>
+            <a href="#">Login</a>
+            <button>List Property</button>
+        </div>
+    </header>
+    <hr>
+    <section class="hero">
+        <div class="first">
+
+            <div class="hero-content">
+
+                <p class="hero-label">HOMES, THOUGHTFULLY FOUND</p>
+
+                <h1>Find Your <span class="dream">Dream <br>Home </span>In India</h1>
+
+                <p class="hero-description">
+                    Discover verified homes across Indian cities,
+                    <br> with the details you need to decide with confidence.
+                </p>
+
+            </div>
+
+            <div class="search-box">
+
+                <div class="search-tabs">
+                    <button class="active">Buy Properties</button>
+                    <button>Rent Properties</button>
+                </div>
+
+                <div class="search-fields">
+
+                    <div class="search-field">
+                        <label for="city">CITY</label>
+
+                        <select id="city">
+                            <option value="">Mumbai</option>
+                            <option value="ahmedabad">Ahmedabad</option>
+                            <option value="delhi">Delhi</option>
+                            <option value="bangalore">Bangalore</option>
+                            <option value="pune">Pune</option>
+                        </select>
+                    </div>
+
+
+                    <div class="search-field">
+                        <label for="price">PRICE RANGE</label>
+
+                        <select id="price">
+                            <option value="">₹2 Cr - ₹5 Cr</option>
+                            <option value="under-1">Under ₹1 Cr</option>
+                            <option value="1-2">₹1 Cr - ₹2 Cr</option>
+                            <option value="2-5">₹2 Cr - ₹5 Cr</option>
+                            <option value="5-plus">₹5 Cr+</option>
+                        </select>
+                    </div>
+
+
+                    <div class="search-field">
+                        <label for="configuration">CONFIGURATION</label>
+
+                        <select id="configuration">
+                            <option value="">3 & 4 BHK</option>
+                            <option value="1">1 BHK</option>
+                            <option value="2">2 BHK</option>
+                            <option value="3">3 BHK</option>
+                            <option value="4">4 BHK</option>
+                            <option value="5">5+ BHK</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <button class="search-button">
+                    SEARCH PROPERTIES
+                </button>
+
+            </div>
+        </div>
+        <div class="second">
+            <img src="./images/hero.png">
+        </div>
+
+    </section>
+    <section class="featured-properties">
+
+        <div class="section-header">
+
+            <div>
+                <p class="section-label">CURATED HOMES</p>
+                <h2>Featured Properties</h2>
+            </div>
+
+            <a href="#" class="view-all">View all properties</a>
+
+        </div>
+
+
+        <div class="property-grid">
+
+            <article class="property-card">
+
+                <div class="property-image">
+                    <img src="./images/ahmedabadHouse.jpg" alt="Maple Residence">
+                    <button class="favorite">
+                        ♡
+                    </button>
+                </div>
+
+                <div class="property-info">
+
+                    <p class="property-city">AHMEDABAD</p>
+
+                    <h3 class="property-name">
+                        Maple Residence
+                    </h3>
+
+                    <p class="property-location">
+                        Bodakdev, Ahmedabad
+                    </p>
+
+                    <div class="property-divider"></div>
+
+                    <div class="property-details">
+                        <span class="property-bhk">3 BHK</span>
+                        <span class="property-area">1,520 Sq.Ft.</span>
+                    </div>
+
+                    <div class="property-divider"></div>
+
+                    <div class="property-bottom">
+
+                        <div class="property-price">
+                            <span>PREMIUM PRICE</span>
+                            <strong>₹2.2 Cr</strong>
+                        </div>
+
+                        <a href="#" class="property-button">
+                            View Details
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article class="property-card">
+
+                <div class="property-image">
+                    <img src="./images/bangloreHouse.jpg" alt="Palm Grove Villa">
+
+                    <button class="favorite">
+                        ♡
+                    </button>
+                </div>
+
+
+                <div class="property-info">
+
+                    <p class="property-city">BANGALORE</p>
+
+                    <h3 class="property-name">
+                        Palm Grove Villa
+                    </h3>
+
+                    <p class="property-location">
+                        Whitefield, Bangalore
+                    </p>
+
+                    <div class="property-divider"></div>
+
+                    <div class="property-details">
+                        <span class="property-bhk">4 BHK</span>
+                        <span class="property-area">2,980 Sq.Ft.</span>
+                    </div>
+
+                    <div class="property-divider"></div>
+
+                    <div class="property-bottom">
+
+                        <div class="property-price">
+                            <span>PREMIUM PRICE</span>
+                            <strong>₹6.15 Cr</strong>
+                        </div>
+
+                        <a href="#" class="property-button">
+                            View Details
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article class="property-card">
+
+                <div class="property-image">
+                    <img src="./images/PuneHouse.jpg" alt="Garden View Residency">
+                    <button class="favorite">
+                        ♡
+                    </button>
+                </div>
+
+                <div class="property-info">
+
+                    <p class="property-city">PUNE</p>
+
+                    <h3 class="property-name">
+                        Garden View Residency
+                    </h3>
+
+                    <p class="property-location">
+                        Kharadi, Pune
+                    </p>
+
+                    <div class="property-divider"></div>
+
+                    <div class="property-details">
+                        <span class="property-bhk">3 BHK</span>
+                        <span class="property-area">1,740 Sq.Ft.</span>
+                    </div>
+
+                    <div class="property-divider"></div>
+
+                    <div class="property-bottom">
+
+                        <div class="property-price">
+                            <span>PREMIUM PRICE</span>
+                            <strong>₹1.58 Cr</strong>
+                        </div>
+
+                        <a href="#" class="property-button">
+                            View Details
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+    <section class="explore-cities">
+        <div class="cities-header">
+            <p class="section-label">COMMUNITIES WITH LEGACY</p>
+            <h2>Explore Elite Living Across Major<br>Indian Metros</h2>
+        </div>
+
+        <div class="city-grid">
+            <article class="city-card">
+                <img src="./images/ahmedabad.jpg" alt="Ahmedabad">
+                <div class="city-overlay"></div>
+                <div class="city-top">
+                    <span>HERITAGE CITY</span>
+                    <i></i>
+                </div>
+                <div class="city-bottom">
+                    <h3>Ahmedabad</h3>
+                    <a href="#">BROWSE HOMES →</a>
+                </div>
+            </article>
+
+            <article class="city-card">
+                <img src="./images/delhi.jpg" alt="Delhi">
+                <div class="city-overlay"></div>
+                <div class="city-top">
+                    <span>DIPLOMATIC ENCLAVES</span>
+                    <i></i>
+                </div>
+                <div class="city-bottom">
+                    <h3>Delhi</h3>
+                    <a href="#">BROWSE HOMES →</a>
+                </div>
+            </article>
+
+            <article class="city-card">
+                <img src="./images/banglore.jpg" alt="Bangalore">
+                <div class="city-overlay"></div>
+                <div class="city-top">
+                    <span>TECH MANSIONS</span>
+                    <i></i>
+                </div>
+                <div class="city-bottom">
+                    <h3>Bangalore</h3>
+                    <a href="#">BROWSE HOMES →</a>
+                </div>
+            </article>
+
+            <article class="city-card">
+                <img src="./images/jaipur.jpg" alt="Jaipur">
+                <div class="city-overlay"></div>
+                <div class="city-top">
+                    <span>ROYAL HERITAGE</span>
+                    <i></i>
+                </div>
+                <div class="city-bottom">
+                    <h3>Jaipur</h3>
+                    <a href="#">BROWSE HOMES →</a>
+                </div>
+            </article>
+
+            <article class="city-card">
+                <img src="./images/hyderabad.jpg" alt="Hyderabad">
+                <div class="city-overlay"></div>
+                <div class="city-top">
+                    <span>NAWABI ESTATES</span>
+                    <i></i>
+                </div>
+                <div class="city-bottom">
+                    <h3>Hyderabad</h3>
+                    <a href="#">BROWSE HOMES →</a>
+                </div>
+            </article>
+
+            <article class="city-card">
+                <img src="./images/mumbai.jpg" alt="Mumbai">
+                <div class="city-overlay"></div>
+                <div class="city-top">
+                    <span>FINANCIAL HUB</span>
+                    <i></i>
+                </div>
+                <div class="city-bottom">
+                    <h3>Mumbai</h3>
+                    <a href="#">BROWSE HOMES →</a>
+                </div>
+            </article>
+
+            <article class="city-card">
+                <img src="./images/pune.jpg" alt="Pune">
+                <div class="city-overlay"></div>
+                <div class="city-top">
+                    <span>HILLSIDE ENCLAVES</span>
+                    <i></i>
+                </div>
+                <div class="city-bottom">
+                    <h3>Pune</h3>
+                    <a href="#">BROWSE HOMES →</a>
+                </div>
+            </article>
+
+            <article class="city-card">
+                <img src="./images/kolkata.jpg" alt="Kolkata">
+                <div class="city-overlay"></div>
+                <div class="city-top">
+                    <span>CULTURAL LEGACY</span>
+                    <i></i>
+                </div>
+                <div class="city-bottom">
+                    <h3>Kolkata</h3>
+                    <a href="#">BROWSE HOMES →</a>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="why-urbannest">
+        <div class="why-header">
+            <div>
+                <p class="section-label">A CLEARER WAY HOME</p>
+                <h2>Why UrbanNest</h2>
+            </div>
+        </div>
+
+        <div class="why-grid">
+            <article class="why-card">
+                <div class="why-icon">✓</div>
+                <h3>Verified Listings</h3>
+                <p>Listings are reviewed for clearer property details before you begin exploring.</p>
+            </article>
+
+            <article class="why-card">
+                <div class="why-icon">▧</div>
+                <h3>Transparent Information</h3>
+                <p>Compare key home details in one considered, easy-to-read place.</p>
+            </article>
+
+            <article class="why-card">
+                <div class="why-icon">⌖</div>
+                <h3>Local Expertise</h3>
+                <p>Explore neighbourhoods through practical local context and property options.</p>
+            </article>
+        </div>
+    </section>
+</body>
+
+</html>
