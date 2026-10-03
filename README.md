@@ -1,4 +1,4 @@
-#﻿UrbanNest
+# ﻿UrbanNest
 
 UrbanNest is a real-estate platform designed to help people discover properties for buying and renting.
 
@@ -8,7 +8,7 @@ In the future, UrbanNest will be extended with JavaScript and backend technologi
 
 The platform will also include a property verification system so that users cannot simply upload random photos or claim someone else's property as their own. Property owners will eventually be required to provide appropriate ownership or authorization documents before a property can be published as a verified listing.
 
-Live Demo
+## Live Demo
 
 [View Live Website](https://urbannest-ochre.vercel.app/)
 
@@ -17,7 +17,7 @@ Tech Stack
 - HTML5
 - CSS3
 
-Features
+## Features
 
 - Clean and modern real-estate website layout
 - Property listings
@@ -25,7 +25,7 @@ Features
 - Responsive design
 - Structured sections for properties and services
 
-Project Structure
+## Project Structure
 
 ``````````
 UrbanNest/
